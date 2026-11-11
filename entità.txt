@@ -1,8 +1,8 @@
 utenti -> mail
 progetti -> id
 lezioni -> id
-esami -> id
 attività proposte -> id
 
-allenamenti e impegni da api di google calendar
+allenamenti e impegni da api di google calendar (creazione da app anche)
 partite da api fipav
+esami (inseriti da app ma creati eventi google calendar)
