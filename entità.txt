@@ -1,0 +1,7 @@
+utenti -> mail
+progetti -> id
+lezioni -> id
+attività proposte -> id
+
+allenamenti e impegni da api di google calendar
+partite da api fipav
