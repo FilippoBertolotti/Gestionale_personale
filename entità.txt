@@ -1,6 +1,7 @@
 utenti -> mail
 progetti -> id
 lezioni -> id
+esami -> id
 attività proposte -> id
 
 allenamenti e impegni da api di google calendar
