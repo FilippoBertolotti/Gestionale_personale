@@ -19,5 +19,15 @@ CREATE TABLE lezione (
 );
 
 CREATE TABLE impegno(
+  ID SERIAL PRIMARY KEY,
+  titolo VARCHAR(255) NOT NULL,
+  data DATE NOT NULL,
+  ora_inizio TIME,
+  ora_fine TIME,
+  luogo VARCHAR(255),
+  email_utente VARCHAR(255) NOT NULL REFERENCES utente(email),
+);
+
+CREATE TABLE progetto(
   
 )
