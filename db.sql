@@ -29,5 +29,10 @@ CREATE TABLE impegno(
 );
 
 CREATE TABLE progetto(
-  
+  ID SERIAL PRIMARY KEY,
+  titolo VARCHAR(255) NOT NULL,
+  descrizione VARCHAR(255),
+  scopo VARCHAR(255),
+  data_scadenza VARCHAR(255),
+  email_utente VARCHAR(255) NOT NULL REFERENCES utente(email)
 )
